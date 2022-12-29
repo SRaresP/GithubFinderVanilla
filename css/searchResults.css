@@ -1,0 +1,36 @@
+.profile-title {
+  text-align: center;
+}
+
+.profile-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 5%;
+}
+
+.result-avatar {
+  border-radius: 50%;
+}
+
+.result-stats {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-stat,
+.result-information > div {
+  border-radius: 5px;
+  background-color: #801;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.result-information {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}

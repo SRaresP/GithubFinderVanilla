@@ -1,0 +1,16 @@
+#login-form {
+  display: grid;
+  justify-content: center;
+}
+
+.form-area input {
+  width: 100%;
+  color: black;
+  min-width: 250px;
+  box-sizing: border-box;
+}
+
+#data-consent-input {
+  width: unset;
+  min-width: unset;
+}
